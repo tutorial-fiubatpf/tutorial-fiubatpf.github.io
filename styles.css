@@ -19,7 +19,8 @@ h3 {
 }
 
 img {
-    width: 30em
+    width: 30em;
+    display: block;
 }
 
 li {
@@ -44,6 +45,7 @@ li {
 }
 li > span {
     margin-left: 1em;
+    margin-right: 1em;
     align-self: center;
 }
 li::marker {
