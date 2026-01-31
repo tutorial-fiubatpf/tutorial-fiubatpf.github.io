@@ -16,7 +16,7 @@ Guía de usuario para el sistema de trabajos profesionales.
 
 ## Tutores, revisores y evaluadores
 - [Evaluar entregas de equipos tutoreados](https://tutorial-fiubatpf.github.io/tutor/evaluar-entregas-de-equipos.html)
-- [Revisión de un equipo del cual no es tutor](https://tutorial-fiubatpf.github.io/tutor/revisor-entregas-de-equipos.html)
+- [Revisión de un equipo del cual no es tutor](https://tutorial-fiubatpf.github.io/tutor/revisar-entregas-de-equipos.html)
 
 ### Fechas de exposición
 - [Indicar disponibilidad de fechas](https://tutorial-fiubatpf.github.io/tutor/indicar-disponibilidad.html)
