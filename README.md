@@ -28,3 +28,4 @@ Guía de usuario para el sistema de trabajos profesionales.
 - [Enviar anteproyecto](https://tutorial-fiubatpf.github.io/estudiante/entregar-anteproyecto.html)
 - [Enviar entrega intermedia](https://tutorial-fiubatpf.github.io/estudiante/entregar-intermedia.html)
 - [Enviar informe final](https://tutorial-fiubatpf.github.io/estudiante/entregar-informe-final.html)
+- [Enviar disponibilidad de fechas](https://tutorial-fiubatpf.github.io/estudiante/indicar-disponibilidad.html)
