@@ -16,11 +16,11 @@ Guía de usuario para el sistema de trabajos profesionales.
 
 ## Tutores, revisores y evaluadores
 - [Evaluar entregas de equipos tutoreados](https://tutorial-fiubatpf.github.io/tutor/evaluar-entregas-de-equipos.html)
-- [Revisión de un equipo del cual no es tutor](https://tutorial-fiubatpf.github.io/tutor/revisor-entregas-de-equipos.html)
+- [Revisión de un equipo del cual no es tutor](https://tutorial-fiubatpf.github.io/tutor/revisar-entregas-de-equipos.html)
 
 ### Fechas de exposición
-- [Agregar disponibilidad de fechas](https://tutorial-fiubatpf.github.io/tutor/agregar-disponibilidad.html)
-- [Ver fechas de presentación asignadas](https://tutorial-fiubatpf.github.io/tutor/ver-fechas-asignadas.html)
+- [Indicar disponibilidad de fechas](https://tutorial-fiubatpf.github.io/tutor/indicar-disponibilidad.html)
+- [Ver fechas de exposición asignadas](https://tutorial-fiubatpf.github.io/tutor/ver-fechas-asignadas.html)
 
 ## Estudiantes
 - [Primer inicio de sesión, uso del dashboard](https://tutorial-fiubatpf.github.io/estudiante/login-sistema-como-estudiante)
