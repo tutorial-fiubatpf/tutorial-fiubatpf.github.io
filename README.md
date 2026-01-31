@@ -11,6 +11,7 @@ Guía de usuario para el sistema de trabajos profesionales.
 - [Ejecutar el algoritmo de asignación de temas y tutores](https://tutorial-fiubatpf.github.io/administrador/algoritmo-temas-tutores.html)
 #### Entregas
 - [Habilitar y deshabilitar entregas](https://tutorial-fiubatpf.github.io/administrador/activar-desactivar.html)
+- [Ver entregas y asignar revisor a anteproyecto](https://tutorial-fiubatpf.github.io/administrador/asignar-revisor-anteprojecto.html)
 #### Fechas de exposición
 - [Cargar fechas de exposición disponibles](https://tutorial-fiubatpf.github.io/administrador/fechas/cargar-admin.html)
 - [Habilitar y deshabilitar fechas de exposición](https://tutorial-fiubatpf.github.io/administrador/activar-desactivar.html)
