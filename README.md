@@ -5,8 +5,9 @@ Guía de usuario para el sistema de trabajos profesionales.
 - [Creación del cuatrimestre](https://tutorial-fiubatpf.github.io/administrador/inicio-cuatrimestre.html)
 - [Inicializar estudiantes, tutores y temas](https://tutorial-fiubatpf.github.io/administrador/init-estudiantes-tutores-temas.html)
 - [Habilitar y deshabilitar entrega del formulario de inscripción](https://tutorial-fiubatpf.github.io/administrador/activar-desactivar.html)
-#### Algoritmos iniciales
+#### Inscripción
 - [Revisar respuestas al formulario de inscripción](https://tutorial-fiubatpf.github.io/administrador/revisar-respuestas-formulario.html)
+- [Agregar, editar, eliminar estudiante manualmente](https://tutorial-fiubatpf.github.io/administrador/agregar-edit-elim-estudiante.html)
 - [Ejecutar el algoritmo de completar equipos](https://tutorial-fiubatpf.github.io/administrador/algoritmo-completar-equipos.html)
 - [Ejecutar el algoritmo de asignación de temas y tutores](https://tutorial-fiubatpf.github.io/administrador/algoritmo-temas-tutores.html)
 #### Entregas
