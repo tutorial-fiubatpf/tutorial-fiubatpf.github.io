@@ -28,7 +28,7 @@ Guía de usuario para el sistema de trabajos profesionales.
 - [Ver fechas de exposición asignadas](https://tutorial-fiubatpf.github.io/tutor/ver-fechas-asignadas.html)
 
 ## Estudiantes
-- [Primer inicio de sesión, uso del dashboard](https://tutorial-fiubatpf.github.io/estudiante/login-sistema-como-estudiante)
+- [Primer inicio de sesión, uso del dashboard](https://tutorial-fiubatpf.github.io/estudiante/login-sistema-como-estudiante.html)
 - [Subir formulario de inscripción](https://tutorial-fiubatpf.github.io/estudiante/formulario.html)
 - [Enviar anteproyecto](https://tutorial-fiubatpf.github.io/estudiante/entregar-anteproyecto.html)
 - [Enviar entrega intermedia](https://tutorial-fiubatpf.github.io/estudiante/entregar-intermedia.html)
