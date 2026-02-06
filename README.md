@@ -29,6 +29,7 @@ Guía de usuario para el sistema de trabajos profesionales.
 
 ## Estudiantes
 - [Primer inicio de sesión, uso del dashboard](https://tutorial-fiubatpf.github.io/estudiante/login-sistema-como-estudiante.html)
+- [Ver ideas de estudiantes y proponer idea propia (opcional)](https://tutorial-fiubatpf.github.io/estudiante/ver-y-proponer-ideas.html)
 - [Subir formulario de inscripción](https://tutorial-fiubatpf.github.io/estudiante/formulario.html)
 - [Enviar anteproyecto](https://tutorial-fiubatpf.github.io/estudiante/entregar-anteproyecto.html)
 - [Enviar entrega intermedia](https://tutorial-fiubatpf.github.io/estudiante/entregar-intermedia.html)
