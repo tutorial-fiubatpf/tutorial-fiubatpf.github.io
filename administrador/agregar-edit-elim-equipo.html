@@ -1,0 +1,334 @@
+<!DOCTYPE html><html><head><meta
+    charset="utf-8"><meta
+    name="viewport" content="width=device-width, initial-scale=1"><title>Tutorial de sistema de trabajos profesionales</title>
+    <link rel="stylesheet" href="/styles.css">
+    </head><body><header><h1>Operaciones sobre un equipo de un cuatrimestre</h1>
+    <aside>
+        <p>
+            Desde la pantalla de equipos podrá buscar y descargar la lista de equipos del cuatrimestre como csv.
+            Además, podrá realizar distintas operaciones como agregar manualmente, editar, eliminar un equipo.
+            En este apartado se provee una introducción a dicha sección y luego una tabla de contenidos con subsecciones que explican el funcionamiento de estas operaciones.
+        </p>
+        <p>
+            Tanto al Agregar como al Editar un equipo, es posible encontrar Conflictos (estudiantes no pueden estar en dos equipos a la vez, es posible elegir si asignar un tema ya en uso a un equipo debería Quitarlo o Conservarlo al equipo que lo tenía anteriormente).
+            En la subsección de Editar equipo se muestran dos ejemplos de conflictos y las posibles resoluciones.
+        </p>
+    </aside>
+    <aside>  </aside>
+    </header>
+    <ol>
+        <li>
+            <div class="number"></div>
+            <span><span>Diríjase a https://fiubatpf.github.io e inicie sesión.</span>
+            <img src="/assets/inicio-sesion.png"></span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span><span>Seleccione el cuatrimestre.</span>
+            <img src="/assets/admin/selecc-cuatrimestre.png"></span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Haga click en el botón "Equipos".</span>
+                <img src="/assets/admin/operar-equipo/3_click-equipos.png">        
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Dentro de la vista se podrá buscar en la tabla y descargarla como csv.
+                    También podrá agregar manualmente, editar y eliminar equipo.
+                    El botón "Copiar emails al portapapeles" sirve para copiar los emails de los/as estudiantes de equipos que se presentan en la tabla en cada momento dado
+                    (por ejemplo, si se realiza una búsqueda y hay más de una coincidencia, se copiarán esos emails mostrados).
+                </span>
+                <img src="/assets/admin/operar-equipo/4_pantalla-equipos.png">
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Podemos ver los datos actuales completos.
+                </span>
+                <img src="/assets/admin/operar-equipo/5_pantalla-equipos-a-modificar.png">
+            </span>
+        </li>
+    </ol>
+    <!-- Tabla de contenidos add - edit - delete -->
+    <div>
+        <h1>Operaciones disponibles</h2>
+        <div style="margin-left: 20px;">        
+            <p>
+                <a href="#agregar">Agregar</a>
+            </p>
+            <p>
+                <a href="#editar">Editar</a>
+            </p>
+            <p>
+                <a href="#eliminar">Eliminar</a>
+            </p>        
+        </div>    
+    </div>
+    <!-- Agregar equipo -->
+    <h2 id="agregar">Agregar equipo</h2>
+    <ol>    
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Para agregar equipo manualmente haga click en "+".</span>
+                <img src="/assets/admin/operar-equipo/6_agregar-equipo.png">    
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Haga click en Agregar integrante y en el campo vacío del primer integrante.
+                    Podrá elegir de la lista y también comenzar a escribir para encontrar al/la estudiante que desea agregar al equipo.</span>
+                <img src="/assets/admin/operar-equipo/7_ag-eq-integrante.png">    
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Seleccione al/la estudiante que desee agregar al equipo.</span>
+                <img src="/assets/admin/operar-equipo/8_ag-eq-buscar-integrante.png">
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>De la misma manera, elija tema y tutor/a para el equipo.
+                    En el caso del tema, si el mismo no existe aún entre los disponibles puede elegir crearlo clickeando Crear tema.
+                    <p>
+                        Aclaración: si no figuran temas en la lista desplegable, se trata de un error, vuelva a la pantalla principal clickeando el logo FIUBA y intente nuevamente.
+                    </p>
+                </span>
+                <img src="/assets/admin/operar-equipo/9_ag-eq-buscar-tema.png">
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>
+                    Completados todos los campos, confirme la operación haciendo click en "Guardar".
+                </span>
+                <img src="/assets/admin/operar-equipo/10_ag-eq-tutor-confirmar.png">
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Una notificación le indicará el éxito de la operación, y el equipo aparecerá en la tabla.</span>
+                <img src="/assets/admin/operar-equipo/11_ag-eq-notif-exito.png">            
+            </span>
+        </li>  
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Puede observar, si lo desea, que el equipo efectivamente se añadió a la tabla.</span>
+                <img src="/assets/admin/operar-equipo/12_ag-eq-datos-en-tabla.png">            
+            </span>
+        </li>
+    </ol>
+    <!-- Editar equipo -->
+    <h2 id="editar">Editar equipo</h2>
+    <h3 id="editar-ej1">Ejemplo 1</h3>
+    <p>
+        En este ejemplo de edición encontramos conflicto de tema y elegimos quitarlo del equipo que lo tenía anteriormente.
+    </p>
+    <ol>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>
+                <span>
+                    <p>
+                        Para editar equipo, localice al equipo que desee editar y haga click en el ícono de lápiz de su derecha.
+                    </p>
+                    <p>
+                        Se abrirá un cartel en el que puede modificar los valores de todos los campos que desee.
+                    </p>
+                    <p>
+                        En este ejemplo, modificaremos tema y tutor de este equipo.
+                    </p>
+                </span>
+                <img src="/assets/admin/operar-equipo/13_editar-equipo.png">            
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Confirme clickeando "Guardar".</span>
+                <img src="/assets/admin/operar-equipo/14_editar-eq-confirmar.png">            
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Un cartel nos informa de un caso de Conflicto: el tema elegido ya está siendo utilizado por otro equipo, en este ejemplo elegiremos Quitar el tema del equipo que lo tenía anteriormente.</span>
+                <img src="/assets/admin/operar-equipo/15_editar-eq-conflicto.png">            
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>En el ejemplo, hemos elegido Quitar</span>
+                <img src="/assets/admin/operar-equipo/15b_editar-eq-conflicto-quitar.png">            
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>
+                    <p>
+                        Una notificación le indicará el éxito de la operación, y puede observar que las modificaciones ya figuran en la tabla.
+                    </p>
+                    <p>
+                        En este ejemplo: figura el nuevo equipo con el Tema A, y notar que el equipo 177 quedó sin tema asignado porque era el que tenía anteriormente el dicho tema y hemos elegido Quitárselo.
+                    </p>
+                </span>
+                <img src="/assets/admin/operar-equipo/16_ed-eq-exito-datos-en-tabla.png">            
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Para que esta situación de equipos sin tema no pase desapercibida y sea fácil de rastrear, es posible hacer click sobre el botón "Mostrar equipos sin tema" y ver los equipos en esta situación.</span>
+                <img src="/assets/admin/operar-equipo/17_pantalla-equipos-boton-sin-tema.png">            
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Se mostrará a los equipos sin tema y el botón ahora podrá volver a clickearse para "Mostrar todos los equipos".</span>
+                <img src="/assets/admin/operar-equipo/18_pantalla-equipos-sin-tema.png">
+            </span>
+        </li>
+    </ol>
+    <h3 id="editar-ej2">Ejemplo 2</h3>
+    <p></p>
+        En este ejemplo de edición encontramos conflicto de estudiantes y de tema. Los estudiantes se mueven al nuevo equipo, y elegimos conservar el tema también al equipo que lo tenía anteriormente.
+    </p>
+    <ol>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>
+                <span>                    
+                        Hemos hecho click en el botón de "Mostrar equipos sin tema" por lo que vemos al único equipo en esa situación.                      
+                        Vamos a editarlo.
+                </span>
+                <img src="/assets/admin/operar-equipo/18_pantalla-equipos-sin-tema.png">    
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>
+                <span>                    
+                    <p>
+                        Se abrirá un cartel en el que puede modificar los valores de todos los campos que desee.
+                    </p>
+                    <p>
+                        En este ejemplo, agregaremos integrantes y modificaremos el tema de este equipo.
+                    </p>
+                </span>
+                <img src="/assets/admin/operar-equipo/19_editar-equipo.png">
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Confirme clickeando "Guardar".</span>
+                <img src="/assets/admin/operar-equipo/20_editar-eq-confirmar.png">            
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Un cartel nos informa de un caso de Conflicto: los dos integrantes que queremos agregar ya se encuentran en otros equipos.
+                    y el tema elegido ya está siendo utilizado por otro equipo. En este ejemplo elegiremos Conservar el tema del equipo que lo tenía anteriormente.</span>
+                <img src="/assets/admin/operar-equipo/21_editar-eq-conflicto.png">            
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>En el ejemplo, hemos elegido Conservar</span>
+                <img src="/assets/admin/operar-equipo/21b_editar-eq-conflicto-conservar.png">            
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>
+                    <p>
+                        Una notificación le indicará el éxito de la operación, y podrá observar que las modificaciones ya figuran en la tabla.                        
+                    </p>
+                    <p>
+                        Como ya no existen equipos sin tema, la lista figura vacía, puede hacer click en "Mostrar todos los equipos" para verificar el estado final de los mismos.
+                    </p>
+                </span>
+                <img src="/assets/admin/operar-equipo/22_pantalla-eqs-exito-boton-todos.png">            
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Se puede ver que los estudiantes 10 y 15 fueron efectivamente movidos de sus equipos, y que se conservó el Tema B para tanto para el equipo editado como para el que lo tenía anteriormente, como se deseaba.</span>
+                <img src="/assets/admin/operar-equipo/17_pantalla-equipos-boton-sin-tema.png">            
+            </span>
+        </li>        
+    </ol>
+    <!-- Eliminar equipo "Experimental" (funciona, pero podría ser mejor, y no existe de manera prolija desde la UI)-->
+    <h2 id="eliminar">Eliminar equipo</h2>
+    <ol>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>
+                    <p>
+                        Actualmente no existe un botón para eliminar equipo. El efecto puede lograrse de la siguiente manera.
+                    </p>
+                    <p>
+                        Localice el equipo que desea eliminar y haga cick en el ícono de lápiz para editarlo.
+                    </p>
+                    <p>
+                        Si elimina todos los integrantes del equipo y confirma la operación, todos sus estudiantes se desasignarán del equipo (luego se podrán agregar a otros equipos si se lo desea) y el equipo vacío se eliminará.
+                    </p>
+                    </span>
+                <img src="/assets/admin/operar-equipo/24_vaciar-equipo-editar.png">   
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>
+                    <p>
+                        Se le pedirá confirmación.
+                    </p>
+                    </span>
+                <img src="/assets/admin/operar-equipo/25_vaciar-equipo-editar.png">   
+            </span>
+        </li>
+    <!--- 
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Se le pedirá confirmación, haga click en "Eliminar".</span>                
+            </span>
+        </li>
+        <li>
+            <div class="number"></div>
+            <span>
+                <span>Una notificación le indicará el éxito de la operación, y puede observar que dicho/a equipo ya no figuran en la tabla.</span>
+                
+            </span>
+        </li>
+    --->
+    </ol>
+    
+    <hr>
+    <p>Creado para la Facultad de Ingeniería de la Universidad de Buenos Aires.</p><a href="https://tutorial-fiubatpf.github.io">Volver al Inicio.</a>
+    </body></html>
+    
