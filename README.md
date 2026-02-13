@@ -7,7 +7,7 @@ Guía de usuario para el sistema de trabajos profesionales.
 - [Habilitar y deshabilitar entrega del formulario de inscripción](https://tutorial-fiubatpf.github.io/administrador/activar-desactivar.html)
 #### Inscripción
 - [Revisar respuestas al formulario de inscripción](https://tutorial-fiubatpf.github.io/administrador/revisar-respuestas-formulario.html)
-- [Agregar, editar, eliminar estudiante, tema y tutor/a manualmente](https://tutorial-fiubatpf.github.io/administrador/subseccion-agregar-edit-elim.html)
+- [Agregar, editar, eliminar estudiante, tema, tutor/a, equipo manualmente](https://tutorial-fiubatpf.github.io/administrador/subseccion-agregar-edit-elim.html)
 - [Ejecutar el algoritmo de completar equipos](https://tutorial-fiubatpf.github.io/administrador/algoritmo-completar-equipos.html)
 - [Ejecutar el algoritmo de asignación de temas y tutores](https://tutorial-fiubatpf.github.io/administrador/algoritmo-temas-tutores.html)
 #### Entregas
