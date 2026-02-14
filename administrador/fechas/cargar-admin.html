@@ -3,70 +3,91 @@ charset="utf-8"><meta
 name="viewport" content="width=device-width, initial-scale=1"><title>Tutorial de sistema de trabajos profesionales</title>
 <link rel="stylesheet" href="/styles.css">
 </head><body><header><h1>Cargar fechas de exposición disponibles</h1>
-<aside>El usuario administrador decide en qué rango de fechas podrán sucederán las distintas exposiciones finales. Los demás usuarios sólo pueden informar sus disponibilidades después de que estos rangos estén cargados.</aside> 
+<aside>El usuario administrador decide en qué rango de fechas podrán suceder las distintas exposiciones finales. Los demás usuarios sólo pueden informar sus disponibilidades después de que estos rangos estén cargados.</aside> 
 <aside>  </aside>
 </header>
 <ol>
     <li>   
         <div class="number"></div>
-        <span><span>Dirigirse a https://fiubatpf.github.io e iniciar sesión en su ordenador.</span>
+        <span><span>Diríjase a https://fiubatpf.github.io e inicie sesión.</span>
         <img src="/assets/inicio-sesion.png"></span>
     </li>
     <li>
         <div class="number"></div>
-        <span><span>Seleccionar el cuatrimestre.</span>
+        <span><span>Seleccione el cuatrimestre.</span>
         <img src="/assets/admin/selecc-cuatrimestre.png"></span>
     </li>
     <li>
         <div class="number"></div>
         <span>
-            <span>Navegar a 'Fechas de exposición disponibles', la tercera opción de arriba hacia abajo en el menú lateral. No confundirse con el algoritmo de fechas, nombrado 'Fechas de exposición' en la sección 'Algoritmos' más abajo.</span>
+            <span>Navegue a "Fechas de exposición disponibles", la tercera opción de arriba hacia abajo en el menú lateral. No confundirse con el algoritmo de fechas, nombrado "Fechas de exposición" en la sección "Algoritmos" más abajo.</span>
             <img src="/assets/algoritmos/nuevo-portal-admin-formulario-activo.png">
         </span>
     </li>
     <li>
         <div class="number"></div>
         <span>
-            <span>Podrá ver un calendario ubicado en la fecha actual, mostrando los días Lunes a Viernes. Use los botones 'Atrás' y 'Siguiente' para navegar a la semana donde desea ubicar las fechas disponibles para exposiciones.</span>
-            <img src="/assets/fechas/calendario-admin.png">
+            <span>Podrá ver el calendario principal ubicado en la fecha actual, mostrando los días Lunes a Viernes.</span>
+            <img src="/assets/admin/cargar-fechas/3_calendario-hoy.png">
+        </span>
+    </li>
+    <li>
+        <div class="number"></div>
+        <span>
+            <span>Use los botones "Atrás" y "Siguiente" para navegar a la semana donde desea ubicar las fechas disponibles para exposiciones.</span>
+            <img src="/assets/admin/cargar-fechas/4_calendario-fecha-inicial.png">
         </span>
     </li>
     <li>
         <div class="number"></div>
         <span>
             <span>Después de ubicar la semana deseada, arrastre el mouse desde la primera hasta la última hora del día donde desea ubicar el rango horario disponible, y suelte el mouse.</span>
-            <img src="/assets/fechas/drag-date.png">
+            <img src="/assets/admin/cargar-fechas/5_arrastrar-fecha.png">
         </span>
     </li>
     <li>
         <div class="number"></div>
         <span>
-            <span>Al soltar el mouse aparecerá una ventana de confirmación. Haga click en 'Aceptar'.</span>
-            <img src="/assets/fechas/disponibilidad-admin.png">
+            <span>Al soltar el mouse aparecerá una ventana de confirmación. Haga click en "Cnofirmar".</span>
+            <img src="/assets/admin/cargar-fechas/6_nuevo.png">
         </span>
     </li>
     <li>
         <div class="number"></div>
         <span>
-            <span>Debería aparecer una notificación verde indicando que se envió la disponibilidad exitosamente. Ahora puede colocar otro rango horario en otro día, en cualquier semana del calendario.</span>
+            <span>Una notificación le indicará el éxito de la operación. Ahora puede colocar otro rango horario en otro día de la semana.</span>
+            <img src="/assets/admin/cargar-fechas/7_notif-exito.png">
         </span>
-    </li>
+    </li>    
     <li>
         <div class="number"></div>
         <span>
-            <span>Si observa una notificación roja de error, recargue la página con el botón de recarga o el comando ctrl + R e intente de nuevo. Debe reiniciar la página para asegurar que las fechas mostradas son válidas.
-                Si persiste el problema repórtelo a un administrador.
+            <span>Si observa una notificación indicando error, recargue la página con el botón de recarga e intente de nuevo. Debe reiniciar la página para asegurar que las fechas mostradas son válidas.
+                Si persiste el problema repórtelo al equipo de desarrollo y soporte.
             </span>
         </span>
     </li>
     <li>
         <div class="number"></div>
         <span>
-            <span>Si cargó un horario por error o nota que no es en realidad un horario disponiblie, puede eliminarlo clickándolo.
-                Si los demás usuarios aún no cargan sus disponibilidades, es decir si aún no habilitó la carga de disponibilidades, entonces la eliminación de cualquier rango horario es segura;
-                si ya comenzaron la carga, entonces no es seguro eliminar rangos horarios ya que al estar la disponibilidad de los demás roles supeditada a las fechas y rangos horarios disponibles,
-                que el rango ya no esté disponible elimina cualquier posibilidad de elegirla, por lo que se perderían datos de forma irrecuperable. Una advertencia antes de eliminar, recuerda esta situación.
+            <span>Una vez completó las fechas de la semana deseada, puede repetir el procedimiento para cualquier otra semana del calendario.</span>
+            <img src="/assets/admin/cargar-fechas/8_fechas-semana.png">
+        </span>
+    </li>
+    <li>
+        <div class="number"></div>
+        <span>
+            <span>
+                <p>
+                    Si cargó un horario por error o nota que no es en realidad un horario disponible, puede eliminarlo clickeándolo.
+                </p>
+                <p>
+                    Si los demás usuarios aún no cargan sus disponibilidades, es decir si aún no habilitó la carga de disponibilidades, entonces la eliminación de cualquier rango horario es segura;
+                    si ya comenzaron la carga, entonces no es seguro eliminar rangos horarios ya que al estar la disponibilidad de los demás roles supeditada a las fechas y rangos horarios disponibles,
+                    que el rango ya no esté disponible elimina cualquier posibilidad de elegirla, por lo que se perderían datos de forma irrecuperable. Una advertencia antes de eliminar, recuerda esta situación.
+                </p>
             </span>
+            <img src="/assets/admin/cargar-fechas/9_eliminar.png">            
         </span>
     </li>
     <li>
