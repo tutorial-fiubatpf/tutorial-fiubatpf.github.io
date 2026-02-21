@@ -20,6 +20,7 @@ Guía de usuario para el sistema de trabajos profesionales.
 
 
 ## Tutores, revisores y evaluadores
+- [Ver ideas de estudiantes](https://tutorial-fiubatpf.github.io/tutor/ideas-estudiantes.html)
 - [Evaluar entregas de equipos tutoreados](https://tutorial-fiubatpf.github.io/tutor/evaluar-entregas-de-equipos.html)
 - [Revisión de un equipo del cual no es tutor](https://tutorial-fiubatpf.github.io/tutor/revisar-entregas-de-equipos.html)
 
