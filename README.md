@@ -20,6 +20,7 @@ Guía de usuario para el sistema de trabajos profesionales.
 
 
 ## Tutores, revisores y evaluadores
+- [Ver ideas de estudiantes](https://tutorial-fiubatpf.github.io/tutor/ideas-estudiantes.html)
 - [Evaluar entregas de equipos tutoreados](https://tutorial-fiubatpf.github.io/tutor/evaluar-entregas-de-equipos.html)
 - [Revisión de un equipo del cual no es tutor](https://tutorial-fiubatpf.github.io/tutor/revisar-entregas-de-equipos.html)
 
@@ -28,7 +29,7 @@ Guía de usuario para el sistema de trabajos profesionales.
 - [Ver fechas de exposición asignadas](https://tutorial-fiubatpf.github.io/tutor/ver-fechas-asignadas.html)
 
 ## Estudiantes
-- [Primer inicio de sesión, uso del dashboard](https://tutorial-fiubatpf.github.io/estudiante/login-sistema-como-estudiante.html)
+- [Primer inicio de sesión, uso de la pantalla principal](https://tutorial-fiubatpf.github.io/estudiante/login-sistema-como-estudiante.html)
 - [Ver ideas de estudiantes y proponer idea propia (opcional)](https://tutorial-fiubatpf.github.io/estudiante/ver-y-proponer-ideas.html)
 - [Subir formulario de inscripción](https://tutorial-fiubatpf.github.io/estudiante/formulario.html)
 - [Enviar anteproyecto](https://tutorial-fiubatpf.github.io/estudiante/entregar-anteproyecto.html)
