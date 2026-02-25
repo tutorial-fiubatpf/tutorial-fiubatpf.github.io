@@ -2,82 +2,90 @@
 charset="utf-8"><meta
 name="viewport" content="width=device-width, initial-scale=1"><title>Tutorial de sistema de trabajos profesionales</title>
 <link rel="stylesheet" href="/styles.css">
-</head><body><header><h1>Algoritmo de completar equipos.</h1>
-<aside>Este algoritmo se ejecuta después de deshabilitar el formulario de armado de equipos, e intenta crear equipos de cuatro personas basados en las preferencias de los estudiantes. Sólo se puede ejecutar una vez. Después de ejecutarlo se puede ejecutar el algoritmo de asignación de temas y tutores.</aside> 
+</head><body><header><h1>Algoritmo de asignar tema y tutor/a</h1>
+<aside>Este algoritmo se ejecuta después del de completar equipos, e intenta asignar temas y tutores a los equipos basándose en las preferencias de sus estudiantes. Sólo se puede ejecutar una vez.</aside> 
 <aside>  </aside>
 </header>
 <ol>
     <li>   
         <div class="number"></div>
-        <span><span>Dirigirse a https://fiubatpf.github.io e iniciar sesión.</span>
-        <img src="/assets/editar-alumnos-temas-tutores/ascreenshot.jpeg"></span>
+        <span><span>Diríjase a https://fiubatpf.github.io e inicie sesión.</span>
+        <img src="/assets/inicio-sesion.png"></span>
     </li>
     <li>
         <div class="number"></div>
-        <span><span>Seleccionar el cuatrimestre.</span>
-        <img src="/assets/editar-alumnos-temas-tutores/ascreenshot2.jpeg"></span>
-    </li>
+        <span><span>Seleccione el cuatrimestre.</span>
+        <img src="/assets/admin/selecc-cuatrimestre.png"></span>
+    </li>    
     <li>
         <div class="number"></div>
         <span>
-            <span>Antes de ejecutar el algoritmo, es necesario haber habilitado el formulario y tener respuestas de los alumnos.</span>
-            <img src="/assets/algoritmos/nuevo-portal-admin-formulario-activo.png">
+            <span>Verifique el estado correcto de los equipos del cuatrimestre en el botón "Equipos".
+                Verifique que ya se ejecutó el algoritmo de completar equipos, esto es condición necesaria para poder ejecutar este algoritmo.</span>                
         </span>
     </li>
     <li>
         <div class="number"></div>
         <span>
-            <span>Verifique el estado correcto de los equipos del cuatrimestre en el botón 'Equipos'. Verifique que ya se ejecutó el algoritmo de completar equipos.</span>
-            <img src="/assets/algoritmos/nuevo-portal-admin-formulario-activo.png">
+            <span>Haga click en el botón "Temas y tutores" en la barra lateral, bajo el título "Algoritmos de asignación".</span>
+            <img src="/assets/admin/inicio.png">
         </span>
     </li>
     <li>
         <div class="number"></div>
         <span>
-            <span>Haga click en el botón 'Temas y tutores' en la barra lateral, bajo el título "Algoritmos de asignación".</span>
-            <img src="/assets/algoritmos/nuevo-portal-admin-formulario-activo.png">
+            <span>Lea las indicaciones, y haga click en el botón "Correr".</span>
+            <img src="/assets/admin/algoritmos/algoritmo-temas-tutores/3_pantalla-algoritmo.png">
         </span>
     </li>
     <li>
         <div class="number"></div>
         <span>
-            <span>Lea las indicaciones, y haga click en el botón 'Correr'.</span>
-            <img src="/assets/algoritmos/algoritmo-temas-tutores/correr.jpeg">
+            <span>
+                <p>
+                    Un menú le permitirá editar el parámetro "máximo en la diferencia". Se refiere a la máxima diferencia de asignaciones de equipos entre cada par de tutores. Si el valor es 5, entonces para dos tutores, la diferencia en cuántos equipos le fueron asignados a cada uno no superará 5.
+                </p>
+                <p>
+                    También podrá elegir el tipo de algoritmo, se recomienda el algoritmo que aparece por default.
+                </p>
+                </span>
+            <img src="/assets/admin/algoritmos/algoritmo-temas-tutores/4_parametros-algoritmo.png">
         </span>
     </li>
     <li>
         <div class="number"></div>
         <span>
-            <span>Un nuevo menú le permitirá editar el parámetro 'máximo en la diferencia'. Se refiere a la máxima diferencia de asignaciones de equipos entre cada par de tutores. Si el valor es 5, para dos tutores, la diferencia en cuántos equipos le fueron asignados a cada uno no superará 5.</span>
-            <img src="/assets/algoritmos/algoritmo-temas-tutores/parametros-algoritmo.jpeg">
+            <span>
+                <p>
+                    Tras ejecutar, se mostrará una previsualización del resultado del algoritmo. Verifique que los resultados son apropriados, si no lo son, reejecute el algoritmo con distintos parámetros.
+                </p>
+                <p>
+                    Recuerde que si sólo desea hacer pequeños ajustes, luego podrá editar tanto integrantes de los equipos como sus tutores y temas manualmente.
+                </p>
+                <p>
+                    Si está satisfecho con los resultados, haga click en "Confirmar resultado".
+                </p>
+                </span>
+            <img src="/assets/admin/algoritmos/algoritmo-temas-tutores/5_v-previa-resultados.png">
         </span>
     </li>
     <li>
         <div class="number"></div>
         <span>
-            <span>También podrá elegir el tipo de algoritmo, se recomienda el algoritmo que aparece por default.</span>
-            <img src="/assets/algoritmos/algoritmo-temas-tutores/parametros-algoritmo.jpeg">
+            <span>               
+                <p>
+                Una vez confirmados los resultados, el botón "Correr" estará deshabilitado.
+                En la parte inferior de la pantalla verá información sobre lo arrojado por el algoritmo, la información completa estará en la pantalla de equipos.                
+                </p>
+                </span>
+            <img src="/assets/admin/algoritmos/algoritmo-temas-tutores/6_ejecutado.png">
         </span>
     </li>
     <li>
         <div class="number"></div>
         <span>
-            <span>Tras ejecutar, se mostrará una previsualización del resultado del algoritmo. Verifique que los resultados son apropriados, si no lo son, reejecute el algoritmo con distintos parámetros. Recuerde que si sólo desea hacer pequeños ajustes, luego podrá editar los equipos como sus tutores y temas manualmente.</span>
-            <img src="/assets/algoritmos/algoritmo-temas-tutores/previs.jpeg">
-        </span>
-    </li>
-    <li>
-        <div class="number"></div>
-        <span>
-            <span>Si está satisfecho con los resultados, haga click en 'Confirmar resultado'. En caso contrario, reejecute el algoritmo o cierre la ventana para descartar los resultados.</span>
-            <img src="/assets/algoritmos/algoritmo-temas-tutores/previs.jpeg">
-        </span>
-    </li>
-    <li>
-        <div class="number"></div>
-        <span>
-            <span>Volver a la vista de cuatrimestre y hacer click en 'Equipos' para verificar el nuevo estado de todos los equipos y hacer modificaciones.</span>
-            <img src="/assets/algoritmos/nuevo-portal-admin-formulario-activo.png">
+            <span>Puede volver a la vista de cuatrimestre y hacer click en "Equipos" para verificar el nuevo estado de todos los equipos y, de desearlo, realizar modificaciones.</span>            
+            <img src="/assets/admin/inicio.png">
         </span>
     </li>
 </ol>
